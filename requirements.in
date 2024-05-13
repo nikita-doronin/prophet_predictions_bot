@@ -1,0 +1,11 @@
+pandas
+keyring
+yfinance
+plotly
+requests
+prophet
+numerize
+pyarrow
+fastparquet
+kaleido
+pip-review
