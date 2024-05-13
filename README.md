@@ -26,7 +26,8 @@ The script logic could be found here:
 `root/prophet_predictions_bot/script_logic/script_logic.drawio`.
 
 You may be using [drawio](https://www.drawio.com/) to open the file. Otherwise you could open the **.png** file:
-`root/prophet_predictions_bot/script_logic/script_logic.drawio.png`
+
+![Alt text](https://github.com/nikita-doronin/prophet_predictions_bot/blob/main/script_logic/script_logic.drawio.png)
 
 ## Set up the project
 1. In case of new Linux server run the `sudo apt update` in [Linux Shell](https://wiki.debian.org/Shell#:~:text=Debian%20uses%20Bash%20as%20the,the%20file%20%2Fetc%2Fadduser.), after that run `sudo apt upgrade`.
@@ -63,3 +64,4 @@ You may be using [drawio](https://www.drawio.com/) to open the file. Otherwise y
         - **INP_NAME** - string, name of the asset that will be used in telegram posts.
 
 11. Open the **Cron Job** daemon via running `crontab -e` in **Linux Shell** and set up the Cron Jobs on your required time. Cron Job will execute predictions automatically. The example of Cron Jobs:
+![Alt text](https://github.com/nikita-doronin/prophet_predictions_bot/blob/main/crontab.png)
