@@ -18,8 +18,15 @@ Prophet is a procedure for forecasting time series data based on an additive mod
 
 The presented project will automatically preapre a price forecast of asset and send it to telegram group or chat.
 
+Example of the prediction for next 24 hours:
+![Alt text](https://github.com/nikita-doronin/prophet_predictions_bot/blob/main/predictions/tech/pic/ETH-USD_predict_24_1h.png)
+
+
+Example of of the prediction result for the past 24 hours:
+![Alt text](https://github.com/nikita-doronin/prophet_predictions_bot/blob/main/predictions/tech/pic/ETH-USD_result_24_1h.png)
+
 ## Live project examples
-Check the real live predictions in [TradeND Telegram group](https://t.me/trade_ND)
+Check the real live predictions in [TradeND Telegram group](https://t.me/trade_ND).
 
 ## Main script
 The script logic could be found here:
